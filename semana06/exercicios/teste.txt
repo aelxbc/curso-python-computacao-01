@@ -1,0 +1,20 @@
+O resultado dos testes com seu programa foi:
+
+***** [0.11 pontos]: Testando se computador_escolhe_jogada usa a estratégia vencedora (n = 13, m = 4) - Falhou *****
+AssertionError: Esperado: 3; recebido: 1
+computador_escolhe_jogada deve usar a estratégia vencedora e devolver o número de peças que o computador vai remover nessa jogada.
+
+***** [0.11 pontos]: Testando computador_escolhe_jogada quando n <= m, ou seja, o jogo está ganho (n = 3, m = 5) - Falhou *****
+AssertionError: Esperado: 3; recebido: 1
+computador_escolhe_jogada deve devolver o número de peças a remover do tabuleiro nesta jogada (neste caso, todas, pois é possível ganhar o jogo).
+
+***** [0.03 pontos]: Testando jogada do computador quando é impossível usar a estratégia vencedora (n = 6, m = 2) - Falhou *****
+AssertionError: Esperado: 2; recebido: 1
+Quando não é possível usar a estratégia vencedora, computador_escolhe_jogada deve remover m peças do tabuleiro
+
+***** [0.03 pontos]: Testando jogada do computador quando é impossível usar a estratégia vencedora (n = 15, m = 4) - Falhou *****
+AssertionError: Esperado: 4; recebido: 1
+Quando não é possível usar a estratégia vencedora, computador_escolhe_jogada deve remover m peças do tabuleiro
+
+***** [0.45 pontos]: Testando se o jogo efetivamente inicia - Falhou *****
+AssertionError: Ao que parece, o jogo não começou; depois de escrever as funções que compõem o programa, lembre-se que é preciso executar algum comando ou chamar alguma função para o jogo começar
